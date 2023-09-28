@@ -1,0 +1,19 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Plantilla base para los proyectos en Node",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": {
+    "name": "Victor Alvarez",
+    "email": "vicventum.dev@gmail.com",
+    "url": "https://vicventum.web.app"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "3.0.1"
+  }
+}
