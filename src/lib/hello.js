@@ -1,1 +1,4 @@
-export const printHello = () => console.log('Hello world')
+export function printHello() {
+	const message = 'Hello world'
+	console.log(message)
+}
